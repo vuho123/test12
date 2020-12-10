@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>League Of Legends</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div id="img">
+        <img
+          src="https://i.pinimg.com/736x/5a/df/16/5adf1628ebc757ff103a70ce73d70a25.jpg"
+          alt="Alistar"
+        />
+      </div>
+      <div id="text">
+        <i><b id="text1"> THE MINOTAUR </b> </i>
+        <i><b id="text2"> ALISTAR </b> </i>
+      </div>
+    </div>
+
+    <div class="row1">
+      <div id="img2">
+        <img
+          src="https://i.pinimg.com/564x/7f/1e/a0/7f1ea04bd44450fa994daa50f086d075.jpg"
+          alt="support"
+        />
+      </div>
+      <div id="text3">
+        <p>Role</p>
+        <b>Support</b>
+      </div>
+
+      <div id="img3">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOuljfRt9lK5d1rlO_mJVm4Ck9sWQM6s-llA&usqp=CAU"
+          alt=""
+        />
+      </div>
+      <div id="text4">
+        <p>Difficulty</p>
+        <b>Moderate</b>
+        <i
+          >Always a mighty warrior with a fearsome reputation, Alistar seeks
+          revenge for the death of his clan at the hands of the Noxian empire.
+          Though he was enslaved and forced into the life of a gladiator, his
+          unbreakable will was what kept him from truly becoming a beast. Now,
+          free of the chains of his former masters, he fights in the name of the
+          downtrodden and the disadvantaged, his rage as much a weapon as his
+          horns, hooves and fists.</i
+        >
+      </div>
+    </div>
+    <div class="v1"></div>
+    <div class="v2"></div>
+
+    <div class="row2">
+      <div id="text5">
+        <b><i>ABILITIES</i></b>
+      </div>
+      <div id="img4">
+        <img
+          onclick="Passive()"
+          src="https://static.wikia.nocookie.net/leagueoflegends/images/2/2b/Triumphant_Roar.png/revision/latest/scale-to-width-down/64?cb=20160608022238"
+          alt=""
+        />
+      </div>
+      <div id="img5">
+        <img
+          onclick="FirstSkill()"
+          src="https://static.wikia.nocookie.net/leagueoflegends/images/1/18/Pulverize.png/revision/latest/scale-to-width-down/64?cb=20160608015047"
+          alt=""
+        />
+      </div>
+      <div id="img6">
+        <img
+          onclick="SecondSkill()"
+          src="https://static.wikia.nocookie.net/leagueoflegends/images/1/1a/Headbutt.png/revision/latest/scale-to-width-down/64?cb=20160608015017"
+          alt=""
+        />
+      </div>
+      <div id="img7">
+        <img
+          onclick="ThirdSkill()"
+          src="https://static.wikia.nocookie.net/leagueoflegends/images/b/b0/Trample.png/revision/latest/scale-to-width-down/64?cb=20160608022213"
+          alt=""
+        />
+      </div>
+      <div id="img8">
+        <img
+          onclick="FourthSkill()"
+          src="https://static.wikia.nocookie.net/leagueoflegends/images/b/b4/Unbreakable_Will.png/revision/latest/scale-to-width-down/64?cb=20160608022142"
+          alt=""
+        />
+      </div>
+
+      <div class="skill">
+        <div id="keyButton"></div>
+        <div id="name"></div>
+        <div id="skillDescription"></div>
+        <video id="newVideo" width="320" height="240" autoplay></video>
+
+        <video id="newVideo1" width="320" height="240" autoplay></video>
+
+        <video id="newVideo2" width="320" height="240" autoplay></video>
+
+        <video id="newVideo3" width="320" height="240" autoplay></video>
+
+        <video id="newVideo4" width="320" height="240" autoplay></video>
+      </div>
+    </div>
+
+    <div class="v3"></div>
+    <div class="v4"></div>
+
+    <div class="row3">
+      <div id="text6">
+        <b><i>AVAILABLE SKINS</i></b>
+      </div>
+      <div class="image1">
+        <div class="column">
+          <img
+            id="img1"
+            onclick="myFunction(this)"
+            src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg"
+            width="200px"
+            alt=""
+          />
+          <p>Alistar</p>
+        </div>
+        <div class="column">
+          <img
+            id="img2"
+            onclick="myFunction(this)"
+            src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_1.jpg"
+            width="200px"
+            alt=""
+          />
+          <p>Black Alistar</p>
+        </div>
+        <div class="column">
+          <img
+            id="img3"
+            onclick="myFunction(this)"
+            src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_2.jpg"
+            width="200px"
+            alt=""
+          />
+          <p>Golden Alistar</p>
+        </div>
+        <div class="column">
+          <img
+            id="img4"
+            onclick="myFunction(this)"
+            src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_7.jpg"
+            width="200px"
+            alt=""
+          />
+          <p>Sweeper Alistar</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <img id="expandedImg" style="width: 60%" />
+    </div>
+
+    <footer>
+      <div class="row">
+        <p>Contact Me</p>
+
+        <section id="lab_social_icon_footer">
+          <div class="container">
+            <div class="text-center-center-block">
+              <a href="#"
+                ><i
+                  id="social-fb"
+                  class="fa fa-facebook-square fa-3x social"
+                ></i
+              ></a>
+              <a href="#"
+                ><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i
+              ></a>
+              <a href="#"
+                ><i
+                  id="social-gp"
+                  class="fa fa-google-plus-square fa-3x social"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  id="social-em"
+                  class="fa fa-envelope-square fa-3x social"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <script src="test.js"></script>
+  </body>
+</html>
